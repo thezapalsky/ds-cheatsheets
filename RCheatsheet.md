@@ -17,7 +17,7 @@ library("pacman")
 if (!require('ggplot2')) install.packages('ggplot2'); library('ggplot2')
 
 setwd(path)
-getwd()
+pwd<-getwd()
 read.csv(file,sep,header) # pd.read_csv()
 read_excel(file,col_names)
 ```
@@ -44,6 +44,7 @@ paste("string ","1")
 ifelse(series1 == "ok",0,1)
 lm(Y~.,data)
 seq()
+predict(model, df_test)
 ```
 
 ### Plotting
